@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="Home"
+    android:id="@+id/home"
+    android:icon="@drawable/ic_home_foreground"
+    />
+    <item
+        android:title="Shorts"
+        android:icon="@drawable/ic_dev_foreground"
+        android:id="@+id/ds"/>
+    <item
+        android:title="Upload"
+        android:icon="@drawable/ic_upload_foreground"
+        android:id="@+id/upload"/>
+    <item
+        android:id="@+id/following"
+        android:icon="@drawable/ic_sub_foreground"
+        android:title="Following"/>
+    <item
+        android:id="@+id/library"
+        android:icon="@drawable/ic_lib_foreground"
+        android:title="Library"/>
+</menu>
